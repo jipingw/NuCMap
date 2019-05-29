@@ -1,0 +1,13 @@
+Package: NuCMap
+Type: Package
+Title: An R package for Nucleosomes Chemical Mapping data analysis.
+biocViews: genetics,visualization,classification
+Version: 0.99.0
+Depends: R (>= 2.13.2), nucmapData
+Date: 2012-07-17
+Author: Liqun Xi, Qingyang Zhang, Kristin Brogaard, Bruce Lindsay, Jonathan Widom, Ji-Ping Wang
+Maintainer: Ji-Ping Wang<jzwang@northwestern.edu>
+Description: NuCMap is an R package for analyzing Nucleosome mapping data from the newly developed chemical mapping technology. This package is built upon a locally convoluted Poisson model proposed in Brogaard et al. (2012) and a generalized EM algorithm by Xi et al. (2012). The core of the package was written in Fortran and C++. NuCMap integrates eleven functions including plotCUTS, peakDIST, trainTEMP1, estNCP1, callUNIQUE, callRED, trainTEMP4, estNCP4, plotAATT, estNCPcall, and calOccup to fulfill a complete analysis of chemical mapping data from data visualization, model training and diagnostic, parameter estimation to nucleosome map definition. NuCMap depends on the experiment data package nucmapData, which contains all the illustration data files.        
+LazyLoad: yes
+License: GPL-2
+Packaged: 2012-09-17 02:35:25 UTC; Qingyang

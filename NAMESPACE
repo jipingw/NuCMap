@@ -1,0 +1,2 @@
+useDynLib(NuCMap)
+export(plotCUTS,plotAATT,trainTEMP4,peakDIST,trainTEMP1,callUNIQUE,callRED,estNCP1,estNCP4,estNCPcall,calOccup)
